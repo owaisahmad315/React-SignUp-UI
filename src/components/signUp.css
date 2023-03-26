@@ -1,0 +1,143 @@
+
+.signUp-container {
+    display: flex;
+    flex-direction: row;
+}
+.left-side {
+    width: 50%;
+    height: 100vh;
+    background: #09E6A7;
+}
+.logo {
+    width: 359.45px;
+    height: 200px;
+}
+.right-side {
+    width: 50%;
+}
+.ant-form {
+    background: #E5E5E5;
+    
+    height: 100vh;
+    /* padding: 6em 0em 1em 0em; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+ .ant-tabs-tab-btn {
+    width: 71px;
+    height: 25px;
+
+    font-family: 'circular-std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #707070;
+ }
+ .ant-tabs {
+    width: 474px;
+height: 55px;
+margin-bottom: 40px;
+
+ }
+ .ant-tabs .ant-tabs-top {
+    margin-top: 2em;
+ }
+ 
+ .ant-tabs-nav-list {
+    transform: translate(0px, 0px);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .ant-tabs-ink-bar .ant-tabs-ink-bar-animated{
+    height: 0.01em;
+    left: 228px;
+    width: 246px;
+ }
+ 
+
+/* step component */
+ 
+ .ant-steps  {
+    width: 474px;
+height: 40px;
+margin-bottom: 48px;
+ }
+ .ant-steps .ant-steps-item-icon {
+    margin: 0px;
+ }
+ :where(.css-dev-only-do-not-override-ph9edi).ant-steps.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item{
+    padding: 0;
+ }
+ :where(.css-dev-only-do-not-override-ph9edi).ant-steps .ant-steps-item-title {
+    padding: 0;
+ }
+ .ant-steps-item-title::after {
+    background-color: red;
+ }
+ .ant-steps-item-content {
+    position: relative;
+ }
+ .ant-steps .ant-steps-item-title::after {
+    position: absolute;
+    top: 10px;
+    height: 10px;
+    width: 9999px;
+ }
+ 
+/* .bussinesName {
+    width: 109px;
+    height: 20px;
+
+    font-family: 'Circular Std';
+ 
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #303030;
+} */
+.ant-form-vertical .ant-form-item-label >label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    width: 100%;
+    height: 20px;
+
+    font-family: 'Circular Std';
+ 
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #303030;
+}
+.ant-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 10px;
+    
+    width: 474px;
+    height: 50px;
+    
+    background: #FAFAFA;
+    border: 0.5px solid #BBBBBB;
+    border-radius: 20px;
+       
+}
+.ant-btn {
+    background: #02A0D9;
+    border-radius: 20px;
+    padding: 0px 32px;
+    width: 100px;
+    height: 50px;
+}
+ 
